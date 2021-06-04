@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Sample</title>
+    <link rel="icon" href="img/viking.jpg">
+    <title>Stickerz</title>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    <img src="img/the-mandalorian-14-din-grogu.jpg" width="800" alt="Mandalorian">
+    <header id="home">
+        <nav>
+            <div class="logo">Stickerz</div>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#contacts">Contacts</a>
+                <a href="cart.html">Cart</a>
+            </div>
+        </nav>
+        <div class="banner">
+            <h1>Stickerz</h1>
+            <button>Shop now</button>
+        </div>
+    </header>
+    <main>
+        <h2>Products</h2>
+        <div class="products">
+            <article>
+                <img src="img/viking.jpg" alt="viking" width="400">
+                <h3>Viking</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dolore deserunt totam. Corporis nemo
+                    sapiente reiciendis? Sit eligendi esse accusantium deleniti cumque maxime tempore eius ipsa atque,
+                    inventore expedita commodi.</p>
+                <div class="buttons">
+                    <button>Info</button>
+                    <button>Buy</button>
+                </div>
+            </article>
+            <article>
+                <img src="img/angry-viking.jpg" alt="angry" width="400">
+                <h3>King</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dolore deserunt totam. Corporis nemo
+                    sapiente reiciendis? Sit eligendi esse accusantium deleniti cumque maxime tempore eius ipsa atque,
+                    inventore expedita commodi.</p>
+                <div class="buttons">
+                    <button>Info</button>
+                    <button>Buy</button>
+                </div>
+            </article>
+            <article>
+                <img src="img/facepalm.jpg" alt="facepalm" width="400">
+                <h3>Viking</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dolore deserunt totam. Corporis nemo
+                    sapiente reiciendis? Sit eligendi esse accusantium deleniti cumque maxime tempore eius ipsa atque,
+                    inventore expedita commodi.</p>
+                <div class="buttons">
+                    <button>Info</button>
+                    <button>Buy</button>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <h2 id="contacts">Contacts</h2>
+            <form action="" method="post">
+                <label>Your name:
+                    <input type="text" name="user-name" placeholder="User Name" >
+                </label>
+                <label>Your email:
+                    <input type="email" name="user-email" placeholder="User Email" >
+                </label>
+                <input type="submit"
+            </form>
+    </footer>
 </body>
+
 </html>
